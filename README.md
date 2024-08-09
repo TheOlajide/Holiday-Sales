@@ -1,20 +1,28 @@
-Holiday Sales
-Table of content
-Data Sourse
-Data Cleaning
-Exploatory Data Analysis
-Conclusion and Recommendation
-[Limitation](limitation)
+# Holiday Sales
+![dashboard](https://github.com/user-attachments/assets/588b776c-168d-4f56-b6b6-d6bc2e632f1a)
 
-Data Source:
 
-The dataset was gotten from kaggle.com
+## Table of content
 
-Data cleaning:
+- [Data Source](#data-source)
+- [Data Cleaning and Preparation](#data-cleaning-and-preparation)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Conclusion and Recommendation](#conclusion-and-recommendation)
+- [Limitation](#limitation)
 
-Changed incorrect data types, removed duplicates and white spaces, formatted date.
+## Data Source:
 
-Exploratory Data Analysis(EDA):
+Dataset was gotten from kaggle.com
+
+## Data cleaning and Preparation:
+
+- Changed incorrect data types
+- Removed duplicates and white spaces
+- Formatted date
+- Grouping of stores by their sizes
+- A bin was created for economic indicators, Fuel price, temperature etc.
+
+## Exploratory Data Analysis:
 
 Objective of EDA is to answer particular quesstions such as;
 
@@ -50,32 +58,53 @@ Objective of EDA is to answer particular quesstions such as;
 - Are larger stores or specific types of stores (e.g., urban vs. rural) more successful?
 
 8. Top-Performing Stores:
+
 - Which stores consistently achieve the highest sales, and what factors contribute to their success?
 - Can we identify common characteristics of top-performing stores?
 
+From the analysis of this dataset, the following responses can be derived;
+
+- It is very noticeable that there is usually a surge in sales same time every year around week 48 and week 52, a deep is also noticeable at week 49 and 53 of every year.
+
+![weekly sales for 2010,11 and 12](https://github.com/user-attachments/assets/6a551da7-e3a2-4cac-979c-06530c60ee49)
 
 
+- Holiday weeks generally have significant impact on sales. Holiday weeks have the higher record on sales.
 
-Conclusion and recommendation:
-Even though year one students seem to have more mental health issues and sought treatments the most, as compared to others, they still manage to  perform better than others. This could mean that courses are less demanding in year one and becomes tougher as students progress. Orientation and mental support should be provided to students in year one.
-It is also recommended that students from higher year of study be given critical tutorship to boost their performance.
+![holiday impact on sales](https://github.com/user-attachments/assets/d27231d0-f492-4c79-a39a-d07c29eac5aa)
+
+
+- Chrismas has the most significant effect on sales, returning the highest revenue ever amongst all the weeks.
+
+![sales made in holidays](https://github.com/user-attachments/assets/33d49260-e968-4b7d-9fc4-4259310dd34f)
+
+
+- Department 7 is the most affected amongst all the department. This department has the highest sales on holidays.
+
+![department 7](https://github.com/user-attachments/assets/48d37092-562b-425a-98ca-7c48587b91ca)
+
+
+- Temperature, Fuel price, CPI and unemployment rates have no visible effect on sales.
+
+![weekly sales by temperature,cpi, fuel price, unemployment](https://github.com/user-attachments/assets/42bc0974-43de-4bea-a0dd-dc36af962af4)
+
+
+- Stores large in size do better with sales, a common characteristics.
+
+![weekly sales by store size](https://github.com/user-attachments/assets/aa98c571-72d2-4e8b-8d3b-9c46ef658a4e)
+
+
+- Store 20 achieved the highest sales, it's size contributing to it's success.
+
+![stores performance](https://github.com/user-attachments/assets/2f655b84-be4a-4f0c-86e8-3d16b3057b0a)
+
+
+## Conclusion and Recommendation:
+- It can be inferred from the analysis that holiday helps boost sales. During holiday weeks, more efforts should be made to maximize profits, eg Discounts.
+- Since size is a significant factor to the success of a store, the size of smaller shops should be increased.
+- Departments with low sales should be looked into.
+- To maximize the effect of holiday weeks, preparations should be made ahead including restocking and promotional Ads. 
+
  
-Limitation:
-Insight from this data set may be unreliable for making realistic conclusions as the survey was carried out over a very limited number of students in  the school. It may not fully portray the true condition of students accross various year of study and departments as total number of record/rows is 101 only. 
-
-From the analysis of data, the following can be inferred;
-1. Total number of students involved in the study is 101.
-2. These students are spread across 35 departments/courses.
-3. ⁠Overall students performance is acceptable as 47.5% of them are on the peak cgpa of 3.50 - 4.00, and 42.57% in the range of second best cgpa(3.00 - 3.49). This accounts for about 90% of students performing way above average.
-4. Year one has the record of highest cgpa. Safe to say that year one students perform better than students from other year of study. 
-5. Year one students have higher panic attack, anxiety and depression level as compared to others, followed by year 2 and year 3. They also sought treatment the most.
-6. Marriage stat is more in year 2 and year 3. Conclusively, students get married around year 2 and year 3.
-7. ⁠Female students dominate the list of married students with a higher stat over married male.
-8. Students in some departments perform better than other department. This could be because such department is less demanding or less tough.
-
-Conclusion and recommendation:
-Even though year one students seem to have more mental health issues and sought treatments the most, as compared to others, they still manage to  perform better than others. This could mean that courses are less demanding in year one and becomes tougher as students progress. Orientation and mental support should be provided to students in year one.
-It is also recommended that students from higher year of study be given critical tutorship to boost their performance.
- 
-Limitation:
-Insight from this data set may be unreliable for making realistic conclusions as the survey was carried out over a very limited number of students in  the school. It may not fully portray the true condition of students accross various year of study and departments as total number of record/rows is 101 only.
+## Limitation:
+Several missing values in markdown data. Missing values are originally denoted with NA in the dataset, affecting any analysis on markdown data(in this case, any analysis involving markdown data was omitted).
