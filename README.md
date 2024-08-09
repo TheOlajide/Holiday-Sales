@@ -3,12 +3,20 @@
 
 
 ## Table of content
-
+- [Project Overview](#project-overview)
 - [Data Source](#data-source)
 - [Data Cleaning and Preparation](#data-cleaning-and-preparation)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
 - [Conclusion and Recommendation](#conclusion-and-recommendation)
 - [Limitation](#limitation)
+
+## Project Overview
+Holidays are important events to stores and businesses. These periods often have a significant impact on sales. Amongst these holidays are four significant ones which are christmas, superbowl, labor day and thanksgiving. The aim of this project is to find out:
+1. How each of these holidays impact sales.
+2. Holiday with the most impact on sales.
+3. The perforrmance of respective stores and department.
+4. Factors contributing to performance of stores and departments.
+5. The effect of economic indicators, fuel price, temperature on sales.
 
 ## Data Source:
 
